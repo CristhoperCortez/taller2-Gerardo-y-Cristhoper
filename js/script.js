@@ -44,7 +44,7 @@ function actuprecios(){
         nombre.innerHTML = "Super Combo";
         comboC.innerHTML = `Selecciono ${pedido.cantcombo} combos`;
         comboP.innerHTML = `$${pedido.supercombo}`;
-        comboCP.SubtotalCombo =  pedido.supercombo * pedido.cantcombo;
+        comboCP.comboCP =  pedido.supercombo * pedido.cantcombo;
         final.innerHTML = "$" + pedido.totalCombo;
     } else if(opcionCombo.value == "combo-2"){
         nombre.innerHTML = "Combo personal";
