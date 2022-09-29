@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+    color: #FFA442;
+}
+h1{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.menu-opciones{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.menu-combo{
+    width: 30%;
+}
+
+.facturaA{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.secciondecomentar{
+    width: 75%;
+    margin: 0 auto;
+}
